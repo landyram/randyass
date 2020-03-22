@@ -47,6 +47,10 @@ a {
 	background-color: white;
 		
 }
+
+
+
+
 .bottom {
 	justify-content: center;
 	align-content: center;
@@ -56,6 +60,17 @@ a {
 	background-color: white;
 		
 }
+
+@media only screen and (max-width: 1090px) {
+	.middle{
+		margin-left: 0;
+	margin-right: 0;
+	}
+	.bottom{
+		margin-left: 0;
+		margin-bottom: 10%;
+	}
+  }
 #logo {
 	width: 100px;
 	height: 100px;
@@ -155,13 +170,12 @@ display: grid;
 	margin: 8px 0;
 	box-sizing: border-box;
 }
-formcomment{
+.form3{
 	display: flex;
     justify-content: flex-end;
 }
 
 
-}
 .comment {
 	width: 100%;
 	padding: 12px 20px;
@@ -218,10 +232,12 @@ font {
 	display: flex;
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	box-shadow: 2px 2px 2px 2px gray;
   }
-  .container {
-	  width: 100%;
-  }
+
   
 @media (max-width: 320px) {
 	.top {
@@ -230,31 +246,32 @@ font {
 		order: 1;
 	}
 	.middle {
-		width: 50%%;
+		width: 100%;
 		-webkit-order: 1;
 		order: 2;
 	}
 	.bottom {
-		width: 50%%;
+		width: 100%;
 		-webkit-order: 3;
 		order: 3;
 	}
 } 
 @media (min-width: 321px)and (max-width: 767px){
 	.top {
-		width: 60%;
+		width: 100%;
 	}
 	.middle {
-		width: 40%;
+		width: 100%;
+
 	}
 	.bottom {
-		width: 33%;
+		width: 100%;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1096px) {
 	.container {
-		width: 800px;
+		/* width: 800px; */
 		margin-left: auto;
 		margin-right: auto;
 	  }
