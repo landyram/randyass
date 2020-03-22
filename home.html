@@ -1,41 +1,92 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="author" content="Randy Lam">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Randy Lam">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Home</title>
-<link href="file:///S|/Web School/Assignment 2/home.css" rel="stylesheet" type="text/css">
+	<title>Home</title>
+	<link href="home.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<div class="container">Content for New div Tag Goes Here
-      <header class="header">
-		  <nav>
-			<img src="logo-placeholder-png.png" alt="logo" id="logo">
-		  <h2>Randy Page</h2>
-			  </nav>
+	<div class="container">
+		<header class="header">
+			<nav>
+				<img src="logo-placeholder-png.png" alt="logo" id="logo">
+				<h2 id="head">Programming Languages</h2>
+				<div id="menu1">Home</div>
+				<div id="menu2">About Us</div>
+			</nav>
 		</header>
-	<main>
-		  <section class="top">
-			  <h3>Content</h3>
-		  </section>
-		  <section class="middle">
-			  <h3>Content</h3>
-		  </section>
-		  <section class="bottom">
-			  <h3>Content</h3>
-		  </section>
-		  
-	</main>
-	<footer class="footer">
+		<main>
+			<section class="top">
+				<h3>Your website for all your programming languages needs!</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sit, placeat quibusdam ducimus sed
+					esse nobis consectetur delectus nihil molestiae.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, magni! Numquam autem minus
+					doloremque magnam maxime quam laboriosam. Omnis, sequi.</p>
+					<br>
+					<img src="logo-placeholder-png.png" alt="topimg" id="topimg">
+			</section>
+			<section class="middle">
+				<h3 style="color: black;">Here is some information on the programming languages we support</h3>
+				<div class="box">
+				<div id="box1">Java 
+					<p class="description">
+					Lorem ipsum dolor sit amet. <br>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo?
+					</p>
+				</div>
+				<div id="box2">C#
+					<p class="description">
+						Lorem ipsum dolor sit amet. <br>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo?
+					</p>
+				</div>
+				<div id="box3">Python
+					<p class="description">Lorem ipsum dolor sit amet. <br>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo?</p>
+				</div>
 
-		Lorem ipsum dolor sit amet.
+				<div id="box4">C++
+					<p class="description">Lorem ipsum dolor sit amet.<br>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nemo?</p>
+				</div>
+				</div>
+			</section>
+			<section class="bottom">
+				<h3 style="color: black;">Contact Form</h3>
+				<form method="GET" action="mailto:rlam960@mtroyal.ca" name="Ass2Form">
+					<input name="form" type="hidden" />
+					<div class="form1">
+							<input name="name" type="text" size="25" maxlength="30" placeholder="Full Name" class="form" />
+					</div>
+					<div class="form2">
+							<input name="subject" type="text" size="25" maxlength="30" placeholder="Subject" class="form"/>
+					</div>
+					<div class="form3">
+							<textarea name="Comments" rows="10" cols="100%" placeholder="Comments"></textarea>
+							
+							<!-- <input name="name" type="text" size="500" maxlength="500" placeholder="Comments" class="form comment"/> -->
+				</div>
+				<div style="justify-content: right;">
+					<input type="submit" value="Submit" class="submit"/>
+				</div>
+				</form>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="greybar"></div>
+			<div class="greybar"></div>
+
+			Lorem ipsum dolor sit amet.
 
 
-	</footer>
-		</div>
+		</footer>
+	</div>
 </body>
 
 </html>
